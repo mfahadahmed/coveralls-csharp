@@ -1,0 +1,9 @@
+C:\Programming\C#\Coveralls\Coveralls-Net-Standard\bin\Debug\netstandard1.6\Coveralls-Net-Standard.deps.json
+C:\Programming\C#\Coveralls\Coveralls-Net-Standard\bin\Debug\netstandard1.6\Coveralls-Net-Standard.dll
+C:\Programming\C#\Coveralls\Coveralls-Net-Standard\bin\Debug\netstandard1.6\Coveralls-Net-Standard.pdb
+C:\Programming\C#\Coveralls\Coveralls-Net-Standard\obj\Debug\netstandard1.6\Coveralls-Net-Standard.csprojAssemblyReference.cache
+C:\Programming\C#\Coveralls\Coveralls-Net-Standard\obj\Debug\netstandard1.6\Coveralls-Net-Standard.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Coveralls\Coveralls-Net-Standard\obj\Debug\netstandard1.6\Coveralls-Net-Standard.AssemblyInfoInputs.cache
+C:\Programming\C#\Coveralls\Coveralls-Net-Standard\obj\Debug\netstandard1.6\Coveralls-Net-Standard.AssemblyInfo.cs
+C:\Programming\C#\Coveralls\Coveralls-Net-Standard\obj\Debug\netstandard1.6\Coveralls-Net-Standard.dll
+C:\Programming\C#\Coveralls\Coveralls-Net-Standard\obj\Debug\netstandard1.6\Coveralls-Net-Standard.pdb
