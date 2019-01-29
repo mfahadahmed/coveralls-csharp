@@ -3,5 +3,6 @@ mono: none
 dotnet: 2.1.502
 solution: "./Coveralls.sln"
 script:
- - dotnet restore
- - dotnet test
+ - dotnet restore --packages ./packages
+ - dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover ./Coveralls-Net-Standard.Tests/Coveralls-Net-Standard.Tests.csproj
+ - ./packages/coveralls.net/0.7.0/tools/csmacnz.Coveralls.exe --opencover -i coverage.opencover.xml --useRelativePaths
