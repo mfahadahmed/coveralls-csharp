@@ -4,5 +4,7 @@ dotnet: 2.1.502
 solution: "./Coveralls.sln"
 script:
  - dotnet restore --packages ./packages
+ - ls
+ - ls -a ./packages
  - dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover ./Coveralls-Net-Standard.Tests/Coveralls-Net-Standard.Tests.csproj
  - ./packages/coveralls.net/0.7.0/tools/csmacnz.Coveralls.exe --opencover -i coverage.opencover.xml --useRelativePaths
