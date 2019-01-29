@@ -1,0 +1,9 @@
+language: csharp
+mono: none
+dotnet: 2.1.502
+solution: "./OptimizelySDK.Travis.sln"
+install:
+ - dotnet restore --packages ./packages
+script:
+ - dotnet restore --packages ./packages
+ - dotnet test
