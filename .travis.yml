@@ -4,7 +4,6 @@ dotnet: 2.1.502
 solution: "./Coveralls.sln"
 script:
  - dotnet restore --packages ./packages
- - ls ./packages/coveralls.net/0.7.0/tools
  - dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover ./Coveralls-Net-Standard.Tests/Coveralls-Net-Standard.Tests.csproj
  - ls ./Coveralls-Net-Standard.Tests
  - dotnet tool install coveralls.net --version 1.0.0 --tool-path packages
